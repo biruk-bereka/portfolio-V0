@@ -35,7 +35,7 @@
 
 # 📖 [Portfolio] <a name="about-project"></a>
 
-> This is portfolio project
+> This is a portfolio project built in html and css.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -56,11 +56,10 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Major features 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Add header section]**
+- **[Add headline section]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -123,11 +122,11 @@ npm install
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Future features
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **[project show feature]**
+- [ ] **[about me feature]**
+- [ ] **[contact feature]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
