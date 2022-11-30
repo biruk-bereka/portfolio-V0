@@ -33,7 +33,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
 > This is a portfolio project built in html and css.
 
@@ -58,8 +58,8 @@
 
 > Major features 
 
-- **[Add header section]**
-- **[Add headline section]**
+- **Header section added**
+- **Headline section added**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -124,9 +124,9 @@ npm install
 
 > Future features
 
-- [ ] **[project show feature]**
-- [ ] **[about me feature]**
-- [ ] **[contact feature]**
+- [ ] **Project show case feature**
+- [ ] **About me feature**
+- [ ] **Contact feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,8 +144,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -153,8 +151,6 @@ If you like this project...
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
 
 I would like to thank...
 
