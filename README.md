@@ -1,12 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -33,9 +26,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio] <a name="about-project"></a>
+# 📖 Portfolio <a name="about-project"></a>
 
-> This is portfolio project
+> This is a portfolio project built in html and css.
 
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -56,11 +49,13 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> Major features 
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Header section added**
+    - Brand name and menu bar added with some styling
+- **Headline section added**
+    - Introduction, description and social links added with some styling
+- **Mobile first approach implemented**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -112,7 +107,7 @@ npm install
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Biruk Bereka**
 
 - GitHub: [@biruk-bereka](https://github.com/biruk-bereka)
 - LinkedIn:[@Biruk Bereka](https://www.linkedin.com/in/biruk-bereka1212/)
@@ -123,11 +118,11 @@ npm install
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> Future features
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Project show case feature**
+- [ ] **About me feature**
+- [ ] **Contact feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -145,19 +140,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+If you like this project please star in here on Github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -165,8 +148,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
