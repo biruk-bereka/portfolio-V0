@@ -1,12 +1,5 @@
 <a name="readme-top"></a>
 
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -59,7 +52,10 @@
 > Major features 
 
 - **Header section added**
+    - Brand name and menu bar added with some styling
 - **Headline section added**
+    - Introduction, description and social links added with some styling
+- **Mobile first approach implemented**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +107,7 @@ npm install
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author1**
+👤 **Biruk Bereka**
 
 - GitHub: [@biruk-bereka](https://github.com/biruk-bereka)
 - LinkedIn:[@Biruk Bereka](https://www.linkedin.com/in/biruk-bereka1212/)
@@ -132,6 +128,8 @@ npm install
 
 <!-- CONTRIBUTING -->
 
+<!-- CONTRIBUTING -->
+
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
@@ -144,15 +142,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank...
+If you like this project please star in here on Github
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,8 +150,6 @@ I would like to thank...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
