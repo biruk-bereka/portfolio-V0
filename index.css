@@ -18,6 +18,7 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: 350px;
   padding: 56px 24px 12px 24px;
 }
 
@@ -34,9 +35,11 @@ li {
   background-image: url("images/illustration-header-mobile.png");
   background-repeat: no-repeat;
   background-position: 100% 125%;
-  background-color: #000;
+  background-color: #1c1a19;
   width: fit-content;
-  height: 55vh;
+  height: 50vh;
+  min-height: 505px;
+  min-width: 350px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -54,7 +57,7 @@ li {
   color: #ff6b00;
 }
 
-.headline h3 {
+.headline h2 {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
