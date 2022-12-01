@@ -19,6 +19,7 @@ li {
   justify-content: space-between;
   align-items: center;
   min-width: 350px;
+  max-width: 412px;
   padding: 56px 24px 12px 24px;
 }
 
@@ -40,6 +41,7 @@ li {
   height: 50vh;
   min-height: 505px;
   min-width: 350px;
+  max-width: 412px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -83,4 +85,156 @@ li {
 
 .headline ul li {
   padding: 10px;
+}
+
+/* Works section */
+
+.works-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 360px;
+  padding: 24px;
+  padding-top: 120px;
+}
+
+.works-section .title {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  color: #1c1a19;
+  border-bottom: 1px solid #212121;
+  padding-bottom: 24px;
+  margin-bottom: 80px;
+}
+
+.first-project {
+  width: 327px;
+  display: grid;
+  justify-content: center;
+}
+
+.first-project .sub-title {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #091e42;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+
+.first-project .description {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #091e42;
+}
+
+.first-project .technologies {
+  margin-top: 22px;
+  margin-bottom: 34px;
+}
+
+.first-project .technologies li {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #091e42;
+  padding: 10px;
+  margin-right: 12px;
+  border: 1px solid #8993a4;
+}
+
+.first-project button {
+  background: #ff6b00;
+  width: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px;
+  border: none;
+}
+
+.works-card {
+  margin-top: 24px;
+  display: grid;
+  justify-content: center;
+}
+
+.card {
+  background-image: url("images/works-card-image-mobile.png");
+  background-repeat: no-repeat;
+  height: 386px;
+  width: 327px;
+  border-radius: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 84px;
+}
+
+.card h4 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  margin: 0 16px;
+}
+
+.card p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  width: 295px;
+  margin: 2px 16px;
+}
+
+.card .technologies {
+  padding: 16px;
+}
+
+.card .technologies li {
+  background: rgba(255, 255, 255, 0.24);
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.card button {
+  background: #ff6b00;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border: none;
+  padding: 12px 0;
+  margin-top: 20px;
+  width: 100%;
 }
