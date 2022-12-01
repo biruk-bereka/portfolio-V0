@@ -128,8 +128,6 @@ npm install
 
 <!-- CONTRIBUTING -->
 
-<!-- CONTRIBUTING -->
-
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
