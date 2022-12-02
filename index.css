@@ -20,6 +20,8 @@ li {
   align-items: center;
   min-width: 350px;
   max-width: 412px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 56px 24px 12px 24px;
 }
 
@@ -45,6 +47,8 @@ li {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0 24px;
   padding-top: 100px;
 }
@@ -107,7 +111,7 @@ li {
   line-height: 52px;
   color: #1c1a19;
   border-bottom: 1px solid #212121;
-  padding-bottom: 24px;
+  padding-bottom: 40px;
   margin-bottom: 80px;
 }
 
@@ -237,4 +241,126 @@ li {
   padding: 12px 0;
   margin-top: 20px;
   width: 100%;
+}
+
+/* About me section */
+
+.about-me {
+  background: #1c1a19;
+  background-image: url("./images/illustration-about-me-mobile.png");
+  background-position: 100% 21%;
+  background-repeat: no-repeat;
+  height: auto;
+  min-width: 350px;
+  max-width: 375px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 24px;
+}
+
+.about-me .introduction {
+  padding-bottom: 200px;
+  border-bottom: 1px solid #fff;
+}
+
+.about-me h4 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-top: 120px;
+}
+
+.about-me p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin: 24px 0;
+  padding-right: 60px;
+}
+
+.about-me button {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: #ff6b00;
+  border: none;
+  padding: 12px;
+}
+
+.profession {
+  width: 100%;
+  margin: 120px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.label-framework {
+  gap: 25px;
+}
+
+.bullet {
+  width: 18px;
+  height: 18px;
+  background: #ff6b00;
+}
+
+.bullet.diamond {
+  transform: rotate(-45deg);
+}
+
+.bullet.circle {
+  border-radius: 50%;
+}
+
+.label {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.profession ul {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profession .profession-lists li {
+  margin-top: 16px;
 }
