@@ -49,14 +49,17 @@
 
 ### Key Features <a name="key-features"></a>
 
-> Major features 
-
 - **Header section added**
     - Brand name and menu bar added with some styling
 - **Headline section added**
     - Introduction, description and social links added with some styling
 - **Mobile first approach implemented**
 
+> New Features 
+- **Project show case feature**
+    - In this feature different works and project added 
+- **About me feature**
+     - In this feature introduction and proffesional skills about me added
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -120,8 +123,6 @@ npm install
 
 > Future features
 
-- [ ] **Project show case feature**
-- [ ] **About me feature**
 - [ ] **Contact feature**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
