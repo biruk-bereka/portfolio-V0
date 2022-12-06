@@ -218,10 +218,17 @@
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
-      <form action="#" method="post">
+      <form class="form" action="#" method="post">
         <ul>
-          <li><input type="text" placeholder="Full name" /></li>
-          <li><input type="email" placeholder="Email address" /></li>
+          <li>
+            <input
+              type="text"
+              placeholder="Full name"
+              maxlength="30"
+              required
+            />
+          </li>
+          <li><input type="email" placeholder="Email address" required /></li>
           <li>
             <textarea
               name="message"
@@ -229,9 +236,11 @@
               cols="30"
               rows="10"
               placeholder="Enter text here"
+              maxlength="500"
+              required
             ></textarea>
           </li>
-          <li><button type="submit">Get in touch</button></li>
+          <li><button class="button" type="submit">Get in touch</button></li>
         </ul>
       </form>
     </section>
