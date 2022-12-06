@@ -54,12 +54,14 @@
 - **Headline section added**
     - Introduction, description and social links added with some styling
 - **Mobile first approach implemented**
-
-> New Features 
 - **Project show case feature**
     - In this feature different works and project added 
 - **About me feature**
      - In this feature introduction and proffesional skills about me added
+
+> New Feature 
+- **Contact form**
+     - Contact form feature have an input feilds for any one want to be in touch like  name, email and message area.  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -123,7 +125,7 @@ npm install
 
 > Future features
 
-- [ ] **Contact feature**
+- [ ] **Desktop Version of the app**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

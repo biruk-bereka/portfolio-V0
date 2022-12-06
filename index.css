@@ -35,7 +35,7 @@ li {
 }
 
 .headline {
-  background-image: url("images/illustration-header-mobile.png");
+  background-image: url('images/illustration-header-mobile.png');
   background-repeat: no-repeat;
   background-position: 100% 125%;
   background-color: #1c1a19;
@@ -180,7 +180,7 @@ li {
 }
 
 .card {
-  background-image: url("images/works-card-image-mobile.png");
+  background-image: url('images/works-card-image-mobile.png');
   background-repeat: no-repeat;
   height: 386px;
   width: 327px;
@@ -247,7 +247,7 @@ li {
 
 .about-me {
   background: #1c1a19;
-  background-image: url("./images/illustration-about-me-mobile.png");
+  background-image: url('./images/illustration-about-me-mobile.png');
   background-position: 100% 21%;
   background-repeat: no-repeat;
   height: auto;
@@ -363,4 +363,110 @@ li {
 
 .profession .profession-lists li {
   margin-top: 16px;
+}
+
+/* Contact form */
+
+.contact-form {
+  min-width: 350px;
+  max-width: 375px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+  padding: 0 24px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form p {
+  width: 327px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+}
+
+.contact-form form {
+  margin-top: 10px;
+}
+
+.form ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input,
+textarea {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  width: 300px;
+  border: none;
+  padding-left: 5px;
+  margin-top: 25px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #979493;
+}
+
+input {
+  padding-bottom: 14px;
+  padding-left: 16px;
+  border-bottom: 1px solid #dbd8d7;
+}
+
+textarea {
+  font-weight: 400;
+  height: 114px;
+  padding: 12px;
+  background: #fbf8f7;
+  margin-bottom: 24px;
+  color: #3c3a39;
+}
+
+form .button {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: #ff6b00;
+  color: #fff;
+  padding: 12px;
+  border: none;
+}
+
+/* Footer */
+
+footer {
+  min-width: 350px;
+  max-width: 375px;
+  padding: 20px 0;
+  margin: 0 auto;
+  border-top: 1px solid #dfe1e6;
+}
+
+footer .social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+footer .social-links .links {
+  padding-right: 15px;
+}
+
+footer .border-bottom {
+  margin: 0 auto;
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  background: #0d151e;
+  border-radius: 10px;
 }
