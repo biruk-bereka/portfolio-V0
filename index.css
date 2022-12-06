@@ -35,7 +35,7 @@ li {
 }
 
 .headline {
-  background-image: url("images/illustration-header-mobile.png");
+  background-image: url('images/illustration-header-mobile.png');
   background-repeat: no-repeat;
   background-position: 100% 125%;
   background-color: #1c1a19;
@@ -180,7 +180,7 @@ li {
 }
 
 .card {
-  background-image: url("images/works-card-image-mobile.png");
+  background-image: url('images/works-card-image-mobile.png');
   background-repeat: no-repeat;
   height: 386px;
   width: 327px;
@@ -247,7 +247,7 @@ li {
 
 .about-me {
   background: #1c1a19;
-  background-image: url("./images/illustration-about-me-mobile.png");
+  background-image: url('./images/illustration-about-me-mobile.png');
   background-position: 100% 21%;
   background-repeat: no-repeat;
   height: auto;
@@ -363,4 +363,21 @@ li {
 
 .profession .profession-lists li {
   margin-top: 16px;
+}
+
+/* Contact form */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+form ul {
+  display: flex;
+  flex-direction: column;
 }
