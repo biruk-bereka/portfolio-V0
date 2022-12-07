@@ -479,15 +479,15 @@ footer .border-bottom {
 /* Desktop version */
 
 @media screen and (min-width: 768px) {
+  /* header */
   .menu {
     display: none;
   }
 
   .header {
     margin: 0;
-    min-width: 768px;
     max-width: 100%;
-    padding: 24px 100px;
+    padding: 24px 150px;
     display: flex;
     justify-content: space-between;
   }
@@ -505,5 +505,46 @@ footer .border-bottom {
     color: #fff;
     display: flex;
     justify-content: space-evenly;
+  }
+
+  /* headline */
+
+  .headline {
+    background-image: url("images/Illustration-header@1x.png");
+    background-repeat: no-repeat;
+    background-position: 100% 75%;
+    height: 80vh;
+    margin: 0;
+    padding-top: 0;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .headline .content h1 {
+    font-size: 72px;
+    line-height: 82px;
+  }
+
+  .headline .content h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  .headline .content p {
+    width: 43%;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .headline ul {
+    flex-direction: column;
+    padding: 0 60px 0 0;
+  }
+
+  .headline ul li {
+    padding: 5px;
   }
 }
