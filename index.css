@@ -476,6 +476,10 @@ footer .border-bottom {
   display: none;
 }
 
+.project-image-desktop {
+  display: none;
+}
+
 /* Desktop version */
 
 @media screen and (min-width: 768px) {
@@ -547,4 +551,60 @@ footer .border-bottom {
   .headline ul li {
     padding: 5px;
   }
+
+  /* Work section */
+
+  .project-image-mobile {
+    display: none;
+  }
+
+  .works-section {
+    max-width: 100%;
+  }
+
+  .works-section .work-title {
+    width: 85%;
+    display: flex;
+    justify-items: baseline;
+    margin-bottom: 85px;
+    border-bottom: none;
+  }
+
+  .work-title .title {
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  .work-title .border-right {
+    display: flex;
+    flex: 1;
+    height: 0;
+    margin-top: 26px;
+    border-bottom: 1px solid #212121;
+  }
+
+  .project-image-desktop {
+    display: flex;
+    margin-right: 16px;
+  }
+
+  .first-project {
+    min-width: 85%;
+    display: flex;
+  }
+
+  .first-project .content .sub-title {
+    font-size: 40px;
+    line-height: 52px;
+    padding-top: 0;
+  }
+
+  .first-project .content .description {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  /* Project cards */
 }
