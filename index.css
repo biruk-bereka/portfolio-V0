@@ -470,3 +470,40 @@ footer .border-bottom {
   background: #0d151e;
   border-radius: 10px;
 }
+
+/* Items to be displayed none in mobile */
+.nav-items {
+  display: none;
+}
+
+/* Desktop version */
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: none;
+  }
+
+  .header {
+    margin: 0;
+    min-width: 768px;
+    max-width: 100%;
+    padding: 24px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    width: 40%;
+  }
+
+  .nav-items {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
