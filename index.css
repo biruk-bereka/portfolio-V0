@@ -745,6 +745,35 @@ button:disabled {
     .about-me {
       background-position: 150% 5%;
     }
+
+    /* Contact form  */
+
+    .contact-form {
+      max-width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      justify-items: baseline;
+      align-items: baseline;
+      padding-left: 100px;
+    }
+
+    .contact-form .content {
+      width: 341px;
+      text-align: left;
+    }
+
+    .contact-form form ul {
+      align-items: flex-start;
+    }
+
+    input,
+    textarea {
+      width: 40vw;
+    }
+
+    textarea {
+      height: 80px;
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -760,35 +789,6 @@ button:disabled {
     .about-me {
       background-position: 100% 5%;
     }
-  }
-
-  /* Contact form  */
-
-  .contact-form {
-    max-width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-items: baseline;
-    align-items: baseline;
-    padding-left: 100px;
-  }
-
-  .contact-form .content {
-    width: 341px;
-    text-align: left;
-  }
-
-  .contact-form form ul {
-    align-items: flex-start;
-  }
-
-  input,
-  textarea {
-    width: 40vw;
-  }
-
-  textarea {
-    height: 80px;
   }
 
   /* Footer section */
