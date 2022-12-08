@@ -480,6 +480,29 @@ footer .border-bottom {
   display: none;
 }
 
+/* button styling */
+
+button:enabled {
+  color: #fff;
+  background: #f55800;
+}
+
+button:hover {
+  color: #f55800;
+  background: #fff5e1;
+  border: 1px solid #f55800;
+}
+
+button:visited {
+  color: #f4f1f0;
+  background: #e05304;
+}
+
+button:disabled {
+  background: #f4f1f0;
+  color: #5b5957;
+}
+
 /* Desktop version */
 
 @media screen and (min-width: 768px) {
