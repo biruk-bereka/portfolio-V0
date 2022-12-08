@@ -550,6 +550,46 @@ button:disabled {
     padding-right: 260px;
   }
 
+  /* About me section */
+
+  .about-me {
+    max-width: 100%;
+    background-image: url("images/illustration-about-me@1x.png");
+    background-repeat: no-repeat;
+    background-position: 300% 5%;
+    padding-left: 65px;
+    margin-top: 0;
+  }
+
+  .about-me .introduction {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+
+  .about-me h4 {
+    line-height: 82px;
+  }
+
+  .about-me .content {
+    font-size: 20px;
+    line-height: 32px;
+    max-width: 566px;
+  }
+
+  .about-me .profession {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-top: 1px solid #fff;
+    padding-top: 80px;
+  }
+
+  .profession .profession-lists {
+    display: flex;
+    align-items: flex-start;
+  }
+
   @media screen and (min-width: 1024px) {
     /* headline */
     .headline {
@@ -700,6 +740,11 @@ button:disabled {
       padding-top: 0;
       background-image: url("./images/card-4.png");
     }
+
+    /* about me section */
+    .about-me {
+      background-position: 150% 5%;
+    }
   }
 
   @media screen and (min-width: 1440px) {
@@ -710,46 +755,11 @@ button:disabled {
       grid-column-gap: 24px;
       grid-row-gap: 24px;
     }
-  }
 
-  /* About me section */
-
-  .about-me {
-    max-width: 100%;
-    background-image: url("images/illustration-about-me@1x.png");
-    background-repeat: no-repeat;
-    background-position: 100% 5%;
-    padding-left: 65px;
-    margin-top: 0;
-  }
-
-  .about-me .introduction {
-    padding-bottom: 0;
-    border-bottom: none;
-  }
-
-  .about-me h4 {
-    line-height: 82px;
-  }
-
-  .about-me .content {
-    font-size: 20px;
-    line-height: 32px;
-    max-width: 566px;
-  }
-
-  .about-me .profession {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    border-top: 1px solid #fff;
-    padding-top: 80px;
-  }
-
-  .profession .profession-lists {
-    display: flex;
-    align-items: flex-start;
+    /* about me section */
+    .about-me {
+      background-position: 100% 5%;
+    }
   }
 
   /* Contact form  */
