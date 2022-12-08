@@ -101,6 +101,7 @@ li {
   min-width: 360px;
   padding: 24px;
   padding-top: 120px;
+  margin-bottom: 100px;
 }
 
 .works-section .title {
@@ -544,51 +545,50 @@ button:disabled {
     padding-top: 0;
     justify-content: center;
   }
-  
+
   .headline p {
     padding-right: 260px;
   }
 
   @media screen and (min-width: 1024px) {
-   
-  /* headline */
-  .headline {
-    background-image: url("images/Illustration-header@1x.png");
-    background-repeat: no-repeat;
-    background-position: 100% 75%;
-    height: 80vh;
-    margin: 0;
-    padding-top: 0;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
+    /* headline */
+    .headline {
+      background-image: url("images/Illustration-header@1x.png");
+      background-repeat: no-repeat;
+      background-position: 100% 75%;
+      height: 80vh;
+      margin: 0;
+      padding-top: 0;
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+    }
 
-  .headline .content h1 {
-    font-size: 72px;
-    line-height: 82px;
-  }
+    .headline .content h1 {
+      font-size: 72px;
+      line-height: 82px;
+    }
 
-  .headline .content h2 {
-    font-weight: 500;
-    font-size: 32px;
-    line-height: 44px;
-  }
+    .headline .content h2 {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 44px;
+    }
 
-  .headline .content p {
-    width: 43%;
-    font-size: 20px;
-    line-height: 32px;
-  }
+    .headline .content p {
+      width: 43%;
+      font-size: 20px;
+      line-height: 32px;
+    }
 
-  .headline ul {
-    flex-direction: column;
-    padding: 0 60px 0 0;
-  }
+    .headline ul {
+      flex-direction: column;
+      padding: 0 60px 0 0;
+    }
 
-  .headline ul li {
-    padding: 5px;
-  }
+    .headline ul li {
+      padding: 5px;
+    }
 
     /* Header */
     .header {
@@ -654,13 +654,11 @@ button:disabled {
     /* Project cards */
 
     .works-card {
-      min-width: 85%;
-      max-width: 80vw;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr;
-      grid-column-gap: 24px;
-      grid-row-gap: 7px;
+      grid-column-gap: 30px;
+      grid-row-gap: 24px;
     }
 
     .works-card button {
@@ -672,6 +670,7 @@ button:disabled {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+      padding-top: 0;
     }
 
     .card-1 {
@@ -687,7 +686,6 @@ button:disabled {
     .card-1 button {
       display: flex;
       justify-content: center;
-      margin-bottom: 33px;
     }
 
     .card-2 {
@@ -702,28 +700,15 @@ button:disabled {
       padding-top: 0;
       background-image: url("./images/card-4.png");
     }
-
-    .card-5,
-    .card-6 {
-      margin-top: 0;
-    }
   }
 
   @media screen and (min-width: 1440px) {
     .works-card {
-      min-width: 85%;
-      max-width: 80vw;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr;
       grid-column-gap: 24px;
-      grid-row-gap: 7px;
-    }
-
-    .card-2,
-    .card-3 {
-      margin-top: 50px;
-      padding-top: 0;
+      grid-row-gap: 24px;
     }
   }
 
