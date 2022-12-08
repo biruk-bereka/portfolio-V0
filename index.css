@@ -758,6 +758,10 @@ button:disabled {
     width: 450px;
   }
 
+  textarea {
+    height: 80px;
+  }
+
   /* Footer section */
 
   footer {
