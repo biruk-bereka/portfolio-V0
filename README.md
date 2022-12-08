@@ -60,7 +60,9 @@
      - Contact form feature have an input feilds for any one want to be in touch like  name, email and message area.
 > New Feature 
 - **Desktop version**
-     - Styling on header, headline, works section, about-me and contact form for the desktop version fone. 
+     - Styling on header, headline, works section, about-me and contact form for the desktop version of different break points done.
+     - Background images resized for different break points done
+     - Button interaction added
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
