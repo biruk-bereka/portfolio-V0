@@ -709,4 +709,29 @@ footer .border-bottom {
     display: flex;
     align-items: flex-start;
   }
+
+  /* Contact form  */
+
+  .contact-form {
+    min-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-items: baseline;
+    align-items: baseline;
+    padding-left: 100px;
+  }
+
+  .contact-form .content {
+    width: 341px;
+    text-align: left;
+  }
+
+  .contact-form form ul {
+    align-items: flex-start;
+  }
+
+  input,
+  textarea {
+    width: 500px;
+  }
 }
