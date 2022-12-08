@@ -732,6 +732,17 @@ footer .border-bottom {
 
   input,
   textarea {
-    width: 500px;
+    width: 450px;
+  }
+
+  /* Footer section */
+
+  footer {
+    min-width: 100%;
+    border-top: 1px solid #dfe1e6;
+  }
+
+  footer .border-bottom {
+    display: none;
   }
 }
