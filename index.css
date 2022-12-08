@@ -618,11 +618,11 @@ footer .border-bottom {
     grid-column-gap: 24px;
     grid-row-gap: 7px;
   }
-  
+
   .works-card button {
     display: none;
   }
-   
+
   .card {
     width: 369px;
     display: flex;
@@ -635,8 +635,8 @@ footer .border-bottom {
   }
 
   .card-1 h4,
-  .card-1 p,
-  .card-1 ul{
+  .card-1 .project.description,
+  .card-1 ul {
     display: none;
   }
 
@@ -654,7 +654,8 @@ footer .border-bottom {
     background-image: url("./images/card-3.png");
   }
 
-  .card-2, .card-3 {
+  .card-2,
+  .card-3 {
     margin-top: 50px;
     padding-top: 0;
   }
@@ -664,10 +665,8 @@ footer .border-bottom {
     background-image: url("./images/card-4.png");
   }
 
-  .card-5, .card-6 {
+  .card-5,
+  .card-6 {
     margin-top: 0;
   }
- 
-
-
 }
