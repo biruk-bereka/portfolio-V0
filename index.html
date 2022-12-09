@@ -11,20 +11,30 @@
     <header class="header">
       <a href="index.html"><span class="my-name">Biruk Bereka</span></a>
       <nav>
-        <div><img src="images/Enabled.png" /></div>
+        <div class="menu"><img src="images/Enabled.png" /></div>
+        <ul class="nav-items">
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+          <li>
+            <a href=""><img src="images/Union.png" /></a>
+          </li>
+        </ul>
       </nav>
     </header>
     <section class="headline">
-      <h1>
-        Hey There. <br />
-        I’m Biruk
-      </h1>
-      <h2>I am a Software Developer</h2>
-      <p>
-        I can help you build a product , feature or website Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don’t hestiate to contact me.
-      </p>
+      <div class="content">
+        <h1>
+          Hey There. <br />
+          I’m Biruk
+        </h1>
+        <h2>I am a Software Developer</h2>
+        <p>
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+      </div>
       <ul>
         <li>
           <a href="#github"><img src="images/Icon-GitHub.png" alt="" /></a>
@@ -44,31 +54,40 @@
       </ul>
     </section>
     <section class="works-section">
-      <h3 class="title">My Recent Works</h3>
-      <article class="first-project">
-        <div><img src="images/project-image-mobile.png" /></div>
-        <h4 class="sub-title">Multi-Post Stories</h4>
-        <p class="description">
-          A daily selection of privately personalized reads; no accounts or
-          sign-ups required. has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a standard dummy text.
-        </p>
-        <ul class="technologies">
-          <li>css</li>
-          <li>html</li>
-          <li>bootstrap</li>
-          <li>Ruby</li>
-        </ul>
-        <button>See Project</button>
-      </article>
-      <article class="works-card">
-        <div></div>
+      <div class="work-title">
+        <h3 class="title">My Recent Works</h3>
+        <div class="border-right"></div>
+      </div>
+      <div class="first-project">
+        <div class="project-image-mobile">
+          <img src="images/project-image-mobile.png" />
+        </div>
+        <div class="project-image-desktop">
+          <img src="images/project-image-desktop@0.75.png" />
+        </div>
+        <div class="content">
+          <h4 class="sub-title">Multi-Post Stories</h4>
+          <p class="description">
+            A daily selection of privately personalized reads; no accounts or
+            sign-ups required. has been the industry's standard dummy text ever
+            since the 1500s, when an unknown printer took a standard dummy text.
+          </p>
+          <ul class="technologies">
+            <li>css</li>
+            <li>html</li>
+            <li>bootstrap</li>
+            <li>Ruby</li>
+          </ul>
+          <button>See Project</button>
+        </div>
+      </div>
+      <div class="works-card">
         <div class="card card-1">
           <h4>
             Profesional Art <br />
             Printing Data
           </h4>
-          <p>
+          <p class="project description">
             A daily selection of privately personalized reads; no accounts or
             sign-ups required. has been the industry's standard
           </p>
@@ -127,7 +146,7 @@
           </ul>
           <button>See Project</button>
         </div>
-        <div class="card card-5">
+        <div class="card card-2 card-5">
           <h4>
             Profesional Art <br />
             Printing Data
@@ -143,7 +162,7 @@
           </ul>
           <button>See Project</button>
         </div>
-        <div class="card card-6">
+        <div class="card card-3 card-6">
           <h4>
             Profesional Art <br />
             Printing Data
@@ -159,12 +178,12 @@
           </ul>
           <button>See Project</button>
         </div>
-      </article>
+      </div>
     </section>
     <section class="about-me">
       <article class="introduction">
         <h4>About me</h4>
-        <p>
+        <p class="content">
           Hello I’m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience! If you
           like what you see and have a project you need coded, don’t hestiate to
@@ -214,7 +233,7 @@
       </article>
     </section>
     <section class="contact-form">
-      <p>
+      <p class="content">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
       </p>
@@ -229,7 +248,14 @@
               required
             />
           </li>
-          <li><input type="email" name="email" placeholder="Email address" required /></li>
+          <li>
+            <input
+              type="email"
+              name="email"
+              placeholder="Email address"
+              required
+            />
+          </li>
           <li>
             <textarea
               name="message"
@@ -247,11 +273,21 @@
     </section>
     <footer>
       <ul class="social-links">
-        <li class="links"><a href="#github"><img src="images/GitHub.png" alt=""></a></li>
-        <li class="links"><a href="#linkedin"><img src="images/Linkedin.png" alt=""></a></li>
-        <li class="links"><a href="#angelist"><img src="images/Angelist.png" alt=""></a></li>
-        <li class="links"><a href="#twitter"><img src="images/Twitter.png" alt=""></a></li>
-        <li class="links"><a href="#medium"><img src="images/Medium.png" alt=""></a></li>
+        <li class="links">
+          <a href="#github"><img src="images/GitHub.png" alt="" /></a>
+        </li>
+        <li class="links">
+          <a href="#linkedin"><img src="images/Linkedin.png" alt="" /></a>
+        </li>
+        <li class="links">
+          <a href="#angelist"><img src="images/Angelist.png" alt="" /></a>
+        </li>
+        <li class="links">
+          <a href="#twitter"><img src="images/Twitter.png" alt="" /></a>
+        </li>
+        <li class="links">
+          <a href="#medium"><img src="images/Medium.png" alt="" /></a>
+        </li>
       </ul>
       <div class="border-bottom"></div>
     </footer>

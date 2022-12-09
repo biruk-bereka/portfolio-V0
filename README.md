@@ -35,8 +35,6 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Tech Stack
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -58,10 +56,13 @@
     - In this feature different works and project added 
 - **About me feature**
      - In this feature introduction and proffesional skills about me added
-
-> New Feature 
 - **Contact form**
-     - Contact form feature have an input feilds for any one want to be in touch like  name, email and message area.  
+     - Contact form feature have an input feilds for any one want to be in touch like  name, email and message area.
+> New Feature 
+- **Desktop version**
+     - Styling on header, headline, works section, about-me and contact form for the desktop version of different break points done.
+     - Background images resized for different break points done
+     - Button interaction added
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -125,7 +126,7 @@ npm install
 
 > Future features
 
-- [ ] **Desktop Version of the app**
+- [ ] **Adding Interactivity for the page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
