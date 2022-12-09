@@ -550,6 +550,71 @@ button:disabled {
     padding-right: 260px;
   }
 
+  /* Work section */
+  .works-section {
+    max-width: 100%;
+  }
+
+  .works-section .work-title {
+    width: 85%;
+    display: flex;
+    justify-items: baseline;
+    margin-bottom: 85px;
+    border-bottom: none;
+  }
+
+  .work-title .title {
+    padding-right: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+  }
+
+  .work-title .border-right {
+    display: flex;
+    flex: 1;
+    height: 0;
+    margin-top: 26px;
+    border-bottom: 1px solid #212121;
+  }
+
+  .first-project {
+    min-width: 85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .first-project .content .sub-title {
+    font-size: 26px;
+    line-height: 24px;
+    padding-top: 0;
+  }
+
+  .first-project .content .description {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .first-project .technologies {
+    margin-top: 20px;
+    margin-bottom: 13px;
+  }
+
+  .first-project .technologies li {
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  .first-project button {
+    font-size: 12px;
+    line-height: 10px;
+  }
+
+  .first-project .project-image-mobile {
+    padding-right: 10px;
+  }
+
   /* About me section */
 
   .about-me {
@@ -641,33 +706,6 @@ button:disabled {
       display: none;
     }
 
-    .works-section {
-      max-width: 100%;
-    }
-
-    .works-section .work-title {
-      width: 85%;
-      display: flex;
-      justify-items: baseline;
-      margin-bottom: 85px;
-      border-bottom: none;
-    }
-
-    .work-title .title {
-      padding-right: 20px;
-      padding-bottom: 0;
-      margin-bottom: 0;
-      border-bottom: none;
-    }
-
-    .work-title .border-right {
-      display: flex;
-      flex: 1;
-      height: 0;
-      margin-top: 26px;
-      border-bottom: 1px solid #212121;
-    }
-
     .project-image-desktop {
       display: flex;
       margin-right: 16px;
@@ -689,6 +727,16 @@ button:disabled {
     .first-project .content .description {
       font-size: 20px;
       line-height: 28px;
+    }
+
+    .first-project .technologies li {
+      font-size: 15px;
+    }
+
+    .first-project button {
+      font-size: 17px;
+      line-height: 24px;
+      margin-top: 15px;
     }
 
     /* Project cards */
