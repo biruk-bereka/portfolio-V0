@@ -159,6 +159,10 @@ li {
   border: 1px solid #8993a4;
 }
 
+button {
+  transition: all 0.5s ease-out;
+}
+
 .first-project button {
   background: #ff6b00;
   width: fit-content;
@@ -482,10 +486,6 @@ footer .border-bottom {
 }
 
 /* button styling */
-
-button {
-  transition: all 0.5s ease-out;
-}
 
 button:enabled {
   color: #fff;

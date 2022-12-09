@@ -58,11 +58,15 @@
      - In this feature introduction and proffesional skills about me added
 - **Contact form**
      - Contact form feature have an input feilds for any one want to be in touch like  name, email and message area.
-> New Feature 
 - **Desktop version**
      - Styling on header, headline, works section, about-me and contact form for the desktop version of different break points done.
      - Background images resized for different break points done
      - Button interaction added
+- New Feature:
+-  **Transition feture**
+    - Add transition for nav bar items when we focus and hover (i.e. change the color and font-size with transition effect on items)
+    -  Add button transition when we focus and hover.
+    
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
