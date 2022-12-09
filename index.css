@@ -854,3 +854,12 @@ button:disabled {
     display: none;
   }
 }
+
+/* Animation and transition */
+
+.nav-items li:hover,
+.my-name:hover {
+  color: black;
+  font-size: 20px;
+  transition: background-color 2s, font-size 2s;
+}
