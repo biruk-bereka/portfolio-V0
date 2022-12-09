@@ -619,9 +619,9 @@ button:disabled {
 
   .about-me {
     max-width: 100%;
-    background-image: url("images/illustration-about-me@1x.png");
+    background-image: url("images/illustration-about-me@0.5x.png");
     background-repeat: no-repeat;
-    background-position: 300% 5%;
+    background-position: 100% 20%;
     padding-left: 65px;
     margin-top: 0;
   }
@@ -636,9 +636,9 @@ button:disabled {
   }
 
   .about-me .content {
-    font-size: 20px;
-    line-height: 32px;
-    max-width: 566px;
+    font-size: 16px;
+    line-height: 29px;
+    max-width: 400px;
   }
 
   .about-me .profession {
@@ -791,7 +791,8 @@ button:disabled {
 
     /* about me section */
     .about-me {
-      background-position: 150% 5%;
+      background-image: url("images/illustration-about-me@1x.png");
+      background-position: 100% 10%;
     }
 
     /* Contact form  */
@@ -833,9 +834,12 @@ button:disabled {
       grid-row-gap: 24px;
     }
 
-    /* about me section */
-    .about-me {
-      background-position: 100% 5%;
+    /* About me section */
+
+    .about-me .content {
+      font-size: 20px;
+      line-height: 32px;
+      max-width: 566px;
     }
   }
 
