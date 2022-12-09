@@ -159,6 +159,10 @@ li {
   border: 1px solid #8993a4;
 }
 
+button {
+  transition: all 0.5s ease-out;
+}
+
 .first-project button {
   background: #ff6b00;
   width: fit-content;
@@ -403,7 +407,7 @@ li {
 
 input,
 textarea {
-  font-family: "Inter", Arial, Helvetica, sans-serif;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   width: 300px;
@@ -538,7 +542,7 @@ button:disabled {
   /* headline */
   .headline {
     max-width: 100%;
-    background-image: url("images/Illustration-header@0.5x.png");
+    background-image: url('images/Illustration-header@0.5x.png');
     background-repeat: no-repeat;
     background-position: 100% 0%;
     margin: 0;
@@ -619,7 +623,7 @@ button:disabled {
 
   .about-me {
     max-width: 100%;
-    background-image: url("images/illustration-about-me@0.5x.png");
+    background-image: url('images/illustration-about-me@0.5x.png');
     background-repeat: no-repeat;
     background-position: 100% 20%;
     padding-left: 65px;
@@ -658,7 +662,7 @@ button:disabled {
   @media screen and (min-width: 1024px) {
     /* headline */
     .headline {
-      background-image: url("images/Illustration-header@1x.png");
+      background-image: url('images/Illustration-header@1x.png');
       background-repeat: no-repeat;
       background-position: 100% 75%;
       height: 80vh;
@@ -762,7 +766,7 @@ button:disabled {
     }
 
     .card-1 {
-      background-image: url("./images/card-1.png");
+      background-image: url('./images/card-1.png');
     }
 
     .card-1 h4,
@@ -777,21 +781,21 @@ button:disabled {
     }
 
     .card-2 {
-      background-image: url("./images/card-2.png");
+      background-image: url('./images/card-2.png');
     }
 
     .card-3 {
-      background-image: url("./images/card-3.png");
+      background-image: url('./images/card-3.png');
     }
 
     .card-4 {
       padding-top: 0;
-      background-image: url("./images/card-4.png");
+      background-image: url('./images/card-4.png');
     }
 
     /* about me section */
     .about-me {
-      background-image: url("images/illustration-about-me@1x.png");
+      background-image: url('images/illustration-about-me@1x.png');
       background-position: 100% 10%;
     }
 
@@ -853,4 +857,13 @@ button:disabled {
   footer .border-bottom {
     display: none;
   }
+}
+
+/* Animation and transition */
+
+.nav-items li:hover,
+.my-name:hover {
+  color: black;
+  font-size: 20px;
+  transition: background-color 2s, font-size 2s;
 }
