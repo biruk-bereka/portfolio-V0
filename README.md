@@ -62,10 +62,11 @@
      - Styling on header, headline, works section, about-me and contact form for the desktop version of different break points done.
      - Background images resized for different break points done
      - Button interaction added
-- New Feature:
 -  **Transition feture**
     - Add transition for nav bar items when we focus and hover (i.e. change the color and font-size with transition effect on items)
     -  Add button transition when we focus and hover.
+- New Feature:
+    - Project online version is live on using github pages. 
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,9 +74,9 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> There is no available link for now.
+> Here is the link for online version of the project
 
-- [Live Demo Link]()
+- [Live Demo Link](https://biruk-bereka.github.io/portfolio-V0/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
