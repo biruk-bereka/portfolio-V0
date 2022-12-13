@@ -62,11 +62,13 @@
      - Styling on header, headline, works section, about-me and contact form for the desktop version of different break points done.
      - Background images resized for different break points done
      - Button interaction added
--  **Transition feture**
+-  **Transition feature**
     - Add transition for nav bar items when we focus and hover (i.e. change the color and font-size with transition effect on items)
     -  Add button transition when we focus and hover.
-- New Feature:
-    - Project online version is live on using github pages. 
+    - Project online version is live on using github pages.
+- New Feature: 
+**Accessibility feature**
+    - Add accessibility feature for images, form and and link to nav bar.
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

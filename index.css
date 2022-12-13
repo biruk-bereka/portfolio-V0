@@ -867,3 +867,9 @@ button:disabled {
   font-size: 20px;
   transition: background-color 2s, font-size 2s;
 }
+
+/* Accessibility feature */
+
+label {
+  display: none;
+}

@@ -11,18 +11,18 @@
     <header class="header">
       <a href="index.html"><span class="my-name">Biruk Bereka</span></a>
       <nav>
-        <div class="menu"><img src="images/Enabled.png" /></div>
+        <div class="menu"><img src="images/Enabled.png" alt="menu icon"/></div>
         <ul class="nav-items">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
           <li>
-            <a href=""><img src="images/Union.png" /></a>
+            <a href="#mail"><img src="images/Union.png" alt="mail icon"/></a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="headline">
+    <section id="portfolio" class="headline">
       <div class="content">
         <h1>
           Hey There. <br />
@@ -37,19 +37,19 @@
       </div>
       <ul>
         <li>
-          <a href="#github"><img src="images/Icon-GitHub.png" alt="" /></a>
+          <a href="#github"><img src="images/Icon-GitHub.png" alt="Github icon" /></a>
         </li>
         <li>
-          <a href="#linkdin"><img src="images/Icon-Linkedin.png" alt="" /></a>
+          <a href="#linkdin"><img src="images/Icon-Linkedin.png" alt="LinkedIn icon" /></a>
         </li>
         <li>
-          <a href="#angelist"><img src="images/Icon-Angelist.png" alt="" /></a>
+          <a href="#angelist"><img src="images/Icon-Angelist.png" alt="Angelist icon" /></a>
         </li>
         <li>
-          <a href="#twitter"><img src="images/Icon-Twitter.png" alt="" /></a>
+          <a href="#twitter"><img src="images/Icon-Twitter.png" alt="Twitter icon" /></a>
         </li>
         <li>
-          <a href="#medium"><img src="images/Icon-Medium.png" alt="" /></a>
+          <a href="#medium"><img src="images/Icon-Medium.png" alt="Medium icon" /></a>
         </li>
       </ul>
     </section>
@@ -60,10 +60,10 @@
       </div>
       <div class="first-project">
         <div class="project-image-mobile">
-          <img src="images/project-image-mobile.png" />
+          <img src="images/project-image-mobile.png" alt="project image"/>
         </div>
         <div class="project-image-desktop">
-          <img src="images/project-image-desktop@0.75.png" />
+          <img src="images/project-image-desktop@0.75.png" alt="project image" />
         </div>
         <div class="content">
           <h4 class="sub-title">Multi-Post Stories</h4>
@@ -78,7 +78,7 @@
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
       </div>
       <div class="works-card">
@@ -96,7 +96,7 @@
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
         <div class="card card-2">
           <h4>
@@ -112,7 +112,7 @@
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
         <div class="card card-3">
           <h4>
@@ -144,7 +144,7 @@
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
         <div class="card card-2 card-5">
           <h4>
@@ -176,11 +176,11 @@
             <li>bootstrap</li>
             <li>Ruby</li>
           </ul>
-          <button>See Project</button>
+          <button type="button">See Project</button>
         </div>
       </div>
     </section>
-    <section class="about-me">
+    <section id="about" class="about-me">
       <article class="introduction">
         <h4>About me</h4>
         <p class="content">
@@ -189,7 +189,7 @@
           like what you see and have a project you need coded, don’t hestiate to
           contact me.
         </p>
-        <button>Get My Resume</button>
+        <button type="button">Get My Resume</button>
       </article>
       <article class="profession">
         <div>
@@ -232,7 +232,7 @@
         </div>
       </article>
     </section>
-    <section class="contact-form">
+    <section id="contact" class="contact-form">
       <p class="content">
         I'm always interested in hearing about new projects, so if you'd like to
         chat please get in touch.
@@ -240,7 +240,9 @@
       <form class="form" action="https://formspree.io/f/moqbgwel" method="post">
         <ul>
           <li>
+            <label for="full-name">Full Name</label>
             <input
+              id="full-name"
               type="text"
               name="full name"
               placeholder="Full name"
@@ -249,7 +251,9 @@
             />
           </li>
           <li>
+            <label for="email">Email</label>
             <input
+              id="email"
               type="email"
               name="email"
               placeholder="Email address"
@@ -257,6 +261,7 @@
             />
           </li>
           <li>
+            <label for="message">Message</label>
             <textarea
               name="message"
               id="message"
@@ -274,19 +279,19 @@
     <footer>
       <ul class="social-links">
         <li class="links">
-          <a href="#github"><img src="images/GitHub.png" alt="" /></a>
+          <a href="#github"><img src="images/GitHub.png" alt="Github icon" /></a>
         </li>
         <li class="links">
-          <a href="#linkedin"><img src="images/Linkedin.png" alt="" /></a>
+          <a href="#linkedin"><img src="images/Linkedin.png" alt="LinkedIn icon" /></a>
         </li>
         <li class="links">
-          <a href="#angelist"><img src="images/Angelist.png" alt="" /></a>
+          <a href="#angelist"><img src="images/Angelist.png" alt="Angelist icon" /></a>
         </li>
         <li class="links">
-          <a href="#twitter"><img src="images/Twitter.png" alt="" /></a>
+          <a href="#twitter"><img src="images/Twitter.png" alt="Twitter icon" /></a>
         </li>
         <li class="links">
-          <a href="#medium"><img src="images/Medium.png" alt="" /></a>
+          <a href="#medium"><img src="images/Medium.png" alt="Medium icon" /></a>
         </li>
       </ul>
       <div class="border-bottom"></div>
