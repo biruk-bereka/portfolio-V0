@@ -516,6 +516,10 @@ button:disabled {
   padding-top: 40px;
 }
 
+.menu {
+  cursor: pointer;
+}
+
 .invisible {
   display: none;
 }
@@ -544,6 +548,7 @@ button:disabled {
 }
 
 .align-close {
+  cursor: pointer;
   display: flex;
   justify-content: flex-end;
   margin-right: 14px;
