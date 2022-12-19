@@ -66,9 +66,13 @@
     - Add transition for nav bar items when we focus and hover (i.e. change the color and font-size with transition effect on items)
     -  Add button transition when we focus and hover.
     - Project online version is live on using github pages.
-- New Feature: 
 **Accessibility feature**
     - Add accessibility feature for images, form and and link to nav bar.
+- New Feature: 
+**Mobile menu feature**
+    - Add functionality for mobile menu button
+    - Add fucntionality for close button
+    - Add style for menu items  
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -133,7 +137,7 @@ npm install
 
 > Future features
 
-- [ ] **Adding Interactivity for the page**
+- [ ] **Adding validation for contact form**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

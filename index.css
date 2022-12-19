@@ -508,9 +508,69 @@ button:disabled {
   color: #5b5957;
 }
 
+/* Mobile menu */
+
+.menu-header {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 40px;
+}
+
+.menu {
+  cursor: pointer;
+}
+
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.display-nav-items {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 350px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.nav-item {
+  border-bottom: 1px solid #6f6c6b;
+  margin-bottom: 24px;
+  padding-bottom: 5px;
+  padding-left: 16px;
+}
+
+.align-close {
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 14px;
+  margin-bottom: 24px;
+}
+
+/* End of mobile menu */
+
 /* Desktop version */
 
 @media screen and (min-width: 768px) {
+  /* Mobile menu */
+  .nav-item {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    padding-left: 0;
+  }
+
+  /* End of mobile menu */
+
   /* header */
   .menu {
     display: none;
