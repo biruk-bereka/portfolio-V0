@@ -508,6 +508,30 @@ button:disabled {
   color: #5b5957;
 }
 
+/* Mobile menu */
+.invisible {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.display-nav-items {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  min-width: 320px;
+}
+
+.align-close {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* End of mobile menu */
+
 /* Desktop version */
 
 @media screen and (min-width: 768px) {
