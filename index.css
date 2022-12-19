@@ -522,13 +522,27 @@ button:disabled {
   flex-direction: column;
   height: 100vh;
   min-width: 320px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff5e1;
+}
+
+.nav-item {
+  border-bottom: 1px solid #6f6c6b;
+  margin-bottom: 24px;
+  padding-bottom: 5px;
+  margin-right: 44px;
+  padding-left: 5px;
 }
 
 .align-close {
   display: flex;
   justify-content: flex-end;
+  margin-right: 44px;
+  margin-bottom: 24px;
 }
-
 
 /* End of mobile menu */
 
