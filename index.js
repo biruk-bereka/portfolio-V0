@@ -1,3 +1,4 @@
+const header = document.querySelector('.header');
 const hamburgerButton = document.querySelector('.menu');
 const closeButton = document.querySelector('.close-button');
 const navItems = document.querySelector('.nav-items');
@@ -5,6 +6,7 @@ const myName = document.querySelector('.my-name');
 const mailButton = document.getElementById('mail');
 
 function openMenu() {
+  header.classList.toggle('menu-header');
   hamburgerButton.classList.toggle('invisible');
   myName.classList.toggle('invisible');
   closeButton.classList.toggle('align-close');
@@ -13,6 +15,7 @@ function openMenu() {
 }
 
 function closeMenu() {
+  header.classList.toggle('menu-header');
   hamburgerButton.classList.toggle('invisible');
   myName.classList.toggle('invisible');
   closeButton.classList.toggle('align-close');
