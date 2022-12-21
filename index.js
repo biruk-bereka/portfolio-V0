@@ -358,3 +358,28 @@ for (let i = 0; i < buttons.length; i += 1) {
     displayProject(i);
   });
 }
+
+// Form Validation
+
+const form = document.querySelector('.form');
+const error = document.querySelector('.error');
+
+function validateEmail(input) {
+  const emailRegex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  return emailRegex.test(input);
+}
+
+form.addEventListener('submit', (event) => {
+  event.preventDefault();
+
+  const isValid = validateEmail(form.elements.email.value);
+
+  if (!isValid) {
+    error.textContent = 'Email address must be in lower case and form is not submitted!!';
+    error.className = 'error active';
+  } else {
+    error.textContent = '';
+    error.className = 'error';
+    form.submit();
+  }
+});
