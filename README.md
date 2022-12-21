@@ -68,11 +68,13 @@
     - Project online version is live on using github pages.
 **Accessibility feature**
     - Add accessibility feature for images, form and and link to nav bar.
-- New Feature: 
 **Mobile menu feature**
     - Add functionality for mobile menu button
     - Add fucntionality for close button
     - Add style for menu items  
+- New Feature: 
+   **Details popup window feature**
+    - Add details popup window for mobile and desktop when button clicked to see projects.
     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
