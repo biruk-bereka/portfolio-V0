@@ -494,6 +494,7 @@ button:enabled {
 }
 
 button:hover {
+  cursor: pointer;
   color: #f55800;
   background: #fff5e1;
   border: 1px solid #f55800;
@@ -671,7 +672,7 @@ button:disabled {
   /* Desktop Popup */
   .popup {
     align-items: center;
-    padding: 112px 120px 360px 120px;
+    padding: 90px 60px 360px 60px;
   }
 
   .modal {
@@ -694,16 +695,17 @@ button:disabled {
   }
 
   .wrapper .popup-image {
+    width: fit-content;
     margin-right: 15px;
   }
 
   .modal .description {
-    width: 424px;
+    width: 305px;
     margin-top: 30px;
   }
 
   .modal .content {
-    height: 93%;
+    height: 92%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -711,6 +713,10 @@ button:disabled {
 
   .modal .content .links {
     margin-top: 10px;
+  }
+
+  .modal .links a {
+    margin-right: 10px;
   }
 
   /* End of desktop popup */
@@ -875,6 +881,17 @@ button:disabled {
   }
 
   @media screen and (min-width: 1024px) {
+    /* Popup window */
+    .popup {
+      padding: 90px 112px 360px 112px;
+    }
+
+    .modal .description {
+      width: 400px;
+    }
+
+    /* End of popup window */
+
     /* headline */
     .headline {
       background-image: url('images/Illustration-header@1x.png');
@@ -991,6 +1008,11 @@ button:disabled {
     }
 
     .card-1 button {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card:hover button {
       display: flex;
       justify-content: center;
     }
