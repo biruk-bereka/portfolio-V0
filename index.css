@@ -578,6 +578,10 @@ button:disabled {
   box-sizing: border-box;
 }
 
+.cancel-icon {
+  cursor: pointer;
+}
+
 .modal {
   background: white;
   display: flex;
@@ -661,6 +665,10 @@ button:disabled {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
+}
+
+.link-pointer {
+  cursor: pointer;
 }
 
 /* End of popup window */

@@ -322,6 +322,7 @@ function displayProject(m) {
   const { links } = projectData[m];
   for (let i = 0; i < links.length; i += 1) {
     const link = document.createElement('a');
+    link.className = 'link-pointer';
     link.href = links[i].link;
     link.innerText = links[i].linkText;
     link.target = '_blank';
