@@ -315,7 +315,7 @@ function displayProject(m) {
   const description = document.createElement('p');
   description.innerText = projectData[m].description;
   description.className = 'description';
-  
+
   const linksWrapper = document.createElement('div');
   linksWrapper.className = 'links';
 
@@ -335,7 +335,7 @@ function displayProject(m) {
 
   contentWrapper.append(description, linksWrapper);
   wrapper.append(imageWrapper, contentWrapper);
-  
+
   modal.append(header, technologies, wrapper);
   popupWindow.append(modal);
 

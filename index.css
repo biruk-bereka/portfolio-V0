@@ -620,6 +620,7 @@ button:disabled {
 }
 
 .modal .popup-image {
+  width: 100%;
   margin: 34px 0 20px 0;
 }
 
@@ -669,10 +670,14 @@ button:disabled {
 @media screen and (min-width: 768px) {
   /* Desktop Popup */
   .popup {
+    align-items: center;
     padding: 112px 120px 360px 120px;
   }
 
   .modal {
+    display: flex;
+    justify-self: center;
+    width: 100%;
     padding: 24px;
   }
 
