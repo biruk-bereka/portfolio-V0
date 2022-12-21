@@ -214,6 +214,7 @@ for (let i = 0; i < projectData.length; i += 1) {
     const description = document.createElement('p');
     const technologies = document.createElement('ul');
     const button = document.createElement('button');
+    button.classList.add('project-button');
 
     content.className = 'content';
     name.className = 'sub-title';
@@ -253,6 +254,7 @@ for (let i = 0; i < projectData.length; i += 1) {
   description.innerText = projectData[i].description;
   technologies.className = 'technologies';
   button.innerText = 'See Project';
+  button.classList.add('project-button');
 
   const technologiesList = projectData[i].technologies;
   for (let j = 0; j < technologiesList.length; j += 1) {
@@ -271,7 +273,7 @@ worksSection.append(workTitle, projectsContainer);
 
 // Popup window
 
-const buttons = document.querySelectorAll('button');
+const buttons = document.querySelectorAll('.project-button');
 
 function displayProject(m) {
   const popupWindow = document.createElement('section');
