@@ -72,10 +72,12 @@
     - Add functionality for mobile menu button
     - Add fucntionality for close button
     - Add style for menu items  
-- New Feature: 
-   **Details popup window feature**
+**Details popup window feature**
     - Add details popup window for mobile and desktop when button clicked to see projects.
-    
+- New Feature: 
+**Contact form validation**
+    - Add validation for email field so that email must be in lowercase.
+          
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -139,7 +141,7 @@ npm install
 
 > Future features
 
-- [ ] **Adding validation for contact form**
+- [ ] **Preserve data in the browser**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
