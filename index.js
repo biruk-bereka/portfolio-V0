@@ -359,18 +359,27 @@ for (let i = 0; i < buttons.length; i += 1) {
   });
 }
 
-//Form Validation
-function validateEmail(email, error, event) {
-  if (email !== email.toLowerCase()) {
-    event.preventDefault();
-    const msg = document.getElementById('error-message');
-    msg.innerText = error;
-  }
+// Form Validation
+
+const form = document.querySelector('.form');
+const error = document.querySelector('.error');
+
+function validateEmail(input) {
+  const emailRegex = /^[a-z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9-]+(?:\.[a-z0-9-]+)*$/;
+  return emailRegex.test(input);
 }
-const form = document.getElementById('form');
+
 form.addEventListener('submit', (event) => {
-  const invalidEmail = 'Error, please enter an email without any upper-case letters.';
-  const email = form.elements.mail;
-  const emailText = email.value;
-  validateEmail(emailText, invalidEmail, event);
+  event.preventDefault();
+
+  const isValid = validateEmail(form.elements.email.value);
+
+  if (!isValid) {
+    error.textContent = 'Email address must be in lower case and form is not submitted!!';
+    error.className = 'error active';
+  } else {
+    error.textContent = '';
+    error.className = 'error';
+    form.submit();
+  }
 });
