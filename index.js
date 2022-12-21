@@ -358,3 +358,19 @@ for (let i = 0; i < buttons.length; i += 1) {
     displayProject(i);
   });
 }
+
+//Form Validation
+function validateEmail(email, error, event) {
+  if (email !== email.toLowerCase()) {
+    event.preventDefault();
+    const msg = document.getElementById('error-message');
+    msg.innerText = error;
+  }
+}
+const form = document.getElementById('form');
+form.addEventListener('submit', (event) => {
+  const invalidEmail = 'Error, please enter an email without any upper-case letters.';
+  const email = form.elements.mail;
+  const emailText = email.value;
+  validateEmail(emailText, invalidEmail, event);
+});
