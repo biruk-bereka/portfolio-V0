@@ -381,5 +381,18 @@ form.addEventListener('submit', (event) => {
     error.textContent = '';
     error.className = 'error';
     form.submit();
+    localStorage.removeItem('data');
   }
+});
+
+// Preserve data in web browser
+
+// Adding data to local storage
+form.addEventListener('keyup', () => {
+  const data = {
+    name: document.getElementById('full-name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
 });
