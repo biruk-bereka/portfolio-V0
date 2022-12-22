@@ -143,7 +143,7 @@ npm install
 
 > Future features
 
-- [ ] **Preserve data in the browser**
+- [ ] **Update the protfolio with feedback**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
