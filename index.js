@@ -396,3 +396,17 @@ form.addEventListener('keyup', () => {
   };
   localStorage.setItem('data', JSON.stringify(data));
 });
+
+function fillForm () {
+  const data = JSON.parse(localStorage.getItem('data'));
+  if(data) {
+    const name = form.elements['full name'];
+    const email = form.elements.email;
+    const message = form.elements.message;
+    name.value = data.name;
+    email.value = data.email;
+    message.value = data.message;
+  }
+}
+
+fillForm();
