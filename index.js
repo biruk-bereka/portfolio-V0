@@ -383,3 +383,29 @@ form.addEventListener('submit', (event) => {
     form.submit();
   }
 });
+
+// Preserve data in web browser
+
+// Adding data to local storage
+form.addEventListener('keyup', () => {
+  const data = {
+    name: document.getElementById('full-name').value,
+    email: document.getElementById('email').value,
+    message: document.getElementById('message').value,
+  };
+  localStorage.setItem('data', JSON.stringify(data));
+});
+
+function fillForm() {
+  const data = JSON.parse(localStorage.getItem('data'));
+  if (data) {
+    const name = form.elements['full name'];
+    const { email } = form.elements;
+    const { message } = form.elements;
+    name.value = data.name;
+    email.value = data.email;
+    message.value = data.message;
+  }
+}
+
+fillForm();
