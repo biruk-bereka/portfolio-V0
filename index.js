@@ -397,12 +397,12 @@ form.addEventListener('keyup', () => {
   localStorage.setItem('data', JSON.stringify(data));
 });
 
-function fillForm () {
+function fillForm() {
   const data = JSON.parse(localStorage.getItem('data'));
-  if(data) {
+  if (data) {
     const name = form.elements['full name'];
-    const email = form.elements.email;
-    const message = form.elements.message;
+    const { email } = form.elements;
+    const { message } = form.elements;
     name.value = data.name;
     email.value = data.email;
     message.value = data.message;

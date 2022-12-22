@@ -74,10 +74,12 @@
     - Add style for menu items  
 **Details popup window feature**
     - Add details popup window for mobile and desktop when button clicked to see projects.
-- New Feature: 
 **Contact form validation**
     - Add validation for email field so that email must be in lowercase.
-          
+- New Feature: 
+**Preserve data in web browser**
+    - Use local storage to add data and get data. 
+    - On reload the form data will be updated with current data.     
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
