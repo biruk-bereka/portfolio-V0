@@ -381,7 +381,6 @@ form.addEventListener('submit', (event) => {
     error.textContent = '';
     error.className = 'error';
     form.submit();
-    localStorage.removeItem('data');
   }
 });
 
