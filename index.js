@@ -369,7 +369,7 @@ function validateEmail(input) {
   return emailRegex.test(input);
 }
 
-form.addEventListener('submit', (event) => {
+forms.addEventListener('submit', (event) => {
   event.preventDefault();
 
   const isValid = validateEmail(form.elements.email.value);
@@ -399,7 +399,7 @@ form.addEventListener('keyup', () => {
 function fillForm() {
   const data = JSON.parse(localStorage.getItem('data'));
   if (data) {
-    const name = form.elements['full name'];
+    
     const { email } = form.elements;
     const { message } = form.elements;
     name.value = data.name;
