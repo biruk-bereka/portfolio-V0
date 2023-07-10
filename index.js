@@ -25,7 +25,7 @@ function closeMenu() {
 
 hamburgerButton.addEventListener('click', openMenu);
 closeButton.addEventListener('click', closeMenu);
-navItems.addEventListener('click', closeMenu);
+// navItems.addEventListener('click', closeMenu);
 
 const worksSection = document.querySelector('.works-section');
 const projectData = [

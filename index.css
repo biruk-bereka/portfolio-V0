@@ -694,6 +694,10 @@ button:disabled {
     padding: 90px 60px 360px 60px;
   }
 
+  .display-nav-items {
+    display: none;
+  }
+
   .modal {
     display: flex;
     justify-self: center;
