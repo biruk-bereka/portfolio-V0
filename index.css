@@ -688,6 +688,7 @@ button:disabled {
   .card .technologies li {
     background-color: #828282;
   }
+
   /* Desktop Popup */
   .popup {
     align-items: center;
@@ -835,7 +836,6 @@ button:disabled {
     display: flex;
     width: 100%;
     justify-content: center;
-
   }
 
   .first-project .content .sub-title {

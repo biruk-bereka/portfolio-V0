@@ -54,7 +54,7 @@ const projectData = [
   {
     name: 'TV SERIES',
     description:
-      "TV Series is a project that allows users to visualize a list of TV series. They can like or comment on them. Build with HTML, CSS, JavaScript, API, and Webpack.",
+      'TV Series is a project that allows users to visualize a list of TV series. They can like or comment on them. Build with HTML, CSS, JavaScript, API, and Webpack.',
     featuredImage: 'images/TVSERIES.png',
     technologies: ['HTML5', 'CSS3', 'JavaScript', 'API'],
     links: [
@@ -75,7 +75,7 @@ const projectData = [
   {
     name: 'Bookstore',
     description:
-      "Book Store is a react application which have a basic functionality of display a list of books, add a book, and remove a selected book.",
+      'Book Store is a react application which have a basic functionality of display a list of books, add a book, and remove a selected book.',
     featuredImage: 'images/Bookstore.png',
     technologies: ['React', 'CSS3', 'Redux'],
     links: [
@@ -91,90 +91,6 @@ const projectData = [
       },
     ],
     projectCardClass: ['card-2'],
-    closeIcon: 'images/cancel-icon.png',
-  },
-  {
-    name: 'Website Protfolio',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: 'images/card-3.png',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
-    links: [
-      {
-        link: 'https://biruk-bereka.github.io/portfolio-V0/',
-        linkText: 'See Live',
-        linkIcon: 'images/Icon-Export.png',
-      },
-      {
-        link: 'https://github.com/biruk-bereka/portfolio-V0',
-        linkText: 'See Source',
-        linkIcon: 'images/Vector.png',
-      },
-    ],
-    projectCardClass: ['card-3'],
-    closeIcon: 'images/cancel-icon.png',
-  },
-  {
-    name: 'Profesional Art Printing Data',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: 'images/card-1.png',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
-    links: [
-      {
-        link: 'https://biruk-bereka.github.io/portfolio-V0/',
-        linkText: 'See Live',
-        linkIcon: 'images/Icon-Export.png',
-      },
-      {
-        link: 'https://github.com/biruk-bereka/portfolio-V0',
-        linkText: 'See Source',
-        linkIcon: 'images/Vector.png',
-      },
-    ],
-    projectCardClass: ['card-4'],
-    closeIcon: 'images/cancel-icon.png',
-  },
-  {
-    name: 'Data Dashboard Healthcare',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: 'images/card-2.png',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
-    links: [
-      {
-        link: 'https://biruk-bereka.github.io/portfolio-V0/',
-        linkText: 'See Live',
-        linkIcon: 'images/Icon-Export.png',
-      },
-      {
-        link: 'https://github.com/biruk-bereka/portfolio-V0',
-        linkText: 'See Source',
-        linkIcon: 'images/Vector.png',
-      },
-    ],
-    projectCardClass: ['card-2', 'card-5'],
-    closeIcon: 'images/cancel-icon.png',
-  },
-  {
-    name: 'Website Protfolio',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard",
-    featuredImage: '../images/TVSERIES.png',
-    technologies: ['html', 'Bootstrap', 'Ruby'],
-    links: [
-      {
-        link: 'https://biruk-bereka.github.io/portfolio-V0/',
-        linkText: 'See Live',
-        linkIcon: 'images/Icon-Export.png',
-      },
-      {
-        link: 'https://github.com/biruk-bereka/portfolio-V0',
-        linkText: 'See Source',
-        linkIcon: 'images/Vector.png',
-      },
-    ],
-    projectCardClass: ['card-3', 'card-6'],
     closeIcon: 'images/cancel-icon.png',
   },
 ];
